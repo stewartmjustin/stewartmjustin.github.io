@@ -7,6 +7,7 @@ body {
 
 h1 {
 	text-align: center;
+	font-size: 50px;
 }
 
 p {
@@ -15,4 +16,14 @@ p {
 
 li {
 	color: #dbdbdb;
+}
+
+.header {
+	display: flex;
+	font-size: 35px;
+	background-color: #3d3d3d;
+}
+
+.header p {
+	margin-left: 20px;
 }
