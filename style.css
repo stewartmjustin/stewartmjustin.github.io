@@ -110,3 +110,7 @@ tr:nth-child(1) td {
 #shell {
 	height: 500px;
 }
+
+a {
+	text-decoration: none;
+}
