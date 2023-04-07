@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calender</title>
+     <script src="cal.js"></script> 
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body onload="mainFunc()">
+
+    <div class = "header">
+      <a href="../index.html"><p>Home</p></a>
+      <a href="cal.html"><p>Calendar</p></a>
+    </div>
+
+    <div id="total">
+
+        <h1 class="MainTitle" id="Title">Calendar Title</h1>
+        <br>
+        <div class="calendar" id="calDiv">
+            <p>Failed to load</p>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="buttons">
+            <button type="button" id="leftButton" class="calChange" onclick="backM()"><</button>
+            <button type="button" id="rightButton" class="calChange" onclick="frontM()">></button>
+        </div>
+
+    </div>
+
+</body>
+</html>
