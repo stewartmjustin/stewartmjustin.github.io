@@ -106,3 +106,7 @@ tr:nth-child(1) td {
 	margin-left: 5%;
 	margin-right: 5%;
 }
+
+#shell {
+	height: 500px;
+}
