@@ -1,0 +1,73 @@
+.MainTitle {
+  text-align: center;
+  padding: 0px;
+  padding-top: 20px;
+  margin: 0px;
+}
+.calendar {
+  border-style: solid;
+  border-color: #858585;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+tr {
+  width: 100%;
+  background-color: #47484d;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+  table-layout: fixed;
+}
+td {
+  border: 3px solid;
+  border-color: #858585;
+  margin: auto;
+  padding: 5px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+tr:nth-child(1) td {
+  padding: 10px;
+}
+.fakeDay {
+  background-color: #282e42;
+}
+.realDay {
+  background-color: #414863;
+}
+#today {
+  background-color: #344380;
+}
+#buttons {
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.calChange {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #344380;
+  border: none;  color: #dedede;
+  font-size: 50px;
+}
+#leftButton {
+  margin-right: 5%;
+}
+#badLeftButton {
+  margin-right: 5%;
+  background-color: #adb6db;
+}
+#rightButton {
+  margin-left: 5%;
+}
