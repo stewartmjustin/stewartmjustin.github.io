@@ -18,15 +18,20 @@ li {
 }
 
 .header {
-	display: flex;
+	display: table;
+  content: "";
 	font-size: 35px;
 	background-color: #3d3d3d;
-	padding-top: 0px;
-	padding-bottom: 0px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
 }
 
 .header p {
 	margin-left: 20px;
+  display: inline;
+  vertical-align: middle;
 }
 
 #total {
@@ -36,6 +41,14 @@ li {
 
 #shell {
 	height: 500px;
+}
+.gitLink {
+  color: #f2f2f2;
+  text-decoration: underline;
+}
+
+#home {
+  font-size: 40px;
 }
 
 a {
