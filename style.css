@@ -63,6 +63,16 @@ img {
   width: 100%;
 }
 
+#pgmEdit {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+figure {
+  margin: auto;
+}
+
 figcaption {
   text-align: center;
 }
